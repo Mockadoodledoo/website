@@ -21,9 +21,6 @@
 
 a {
   font-size: 1.13rem;
-  color: var(--red);
-  text-decoration: underline;
-  text-underline-offset: 0.3rem;
 }
 
 .external {

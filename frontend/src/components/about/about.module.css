@@ -15,6 +15,7 @@ p {
   line-height: 18px;
 
   font-size: 1rem;
+  text-align: justify;
 
   color: var(--text-secondary);
   margin-bottom: 4vh;

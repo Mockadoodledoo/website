@@ -15,3 +15,8 @@ body {
   padding: 0 15vw;
   height: inherit;
 }
+a {
+  color: var(--red);
+  text-decoration: underline;
+  text-underline-offset: 0.3rem;
+}

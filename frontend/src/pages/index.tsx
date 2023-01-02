@@ -2,12 +2,14 @@ import * as React from "react";
 import type { HeadFC, PageProps } from "gatsby";
 import Header from "../components/header/header";
 import About from "../components/about/about";
+import Footer from "../components/footer/footer";
 
 const IndexPage: React.FC<PageProps> = () => {
   return (
     <main>
       <Header />
       <About />
+      <Footer />
     </main>
   );
 };
