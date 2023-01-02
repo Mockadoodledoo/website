@@ -1,0 +1,29 @@
+.about {
+  margin-bottom: 2vh;
+}
+
+h1 {
+  font-size: 1.25rem;
+  font-weight: 600;
+  line-height: 16px;
+
+  margin-bottom: 4vh;
+}
+
+p {
+  font-weight: 400;
+  line-height: 18px;
+
+  font-size: 1rem;
+
+  color: var(--text-secondary);
+  margin-bottom: 4vh;
+}
+
+hr {
+  background-color: var(--light-grey);
+  color: var(--light-grey);
+
+  border: 0;
+  height: 1px;
+}
