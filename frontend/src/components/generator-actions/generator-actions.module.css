@@ -1,0 +1,40 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  flex-wrap: wrap;
+  height: 5vh;
+}
+
+.title {
+  max-width: 400px;
+  font-size: 1.125rem;
+  margin-bottom: 1vh;
+}
+
+.interactive-title {
+  border: none;
+  margin: 0;
+  padding: 0 5px 0 0;
+  height: 30px;
+  width: 150px;
+  font-size: 1.125rem;
+}
+
+.filetype {
+  color: var(--text-secondary);
+}
+
+.reset {
+  color: var(--red);
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+.download {
+  cursor: pointer;
+}
+
+.icon {
+  margin-bottom: -1px;
+}
