@@ -1,0 +1,47 @@
+@import "../../styles/variables.css";
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    height: 15vh;
+    margin-bottom: 2vh;
+    background: var(--pink);
+}
+
+.logo {
+    max-height: 30px;
+    content: url("../../assets/logo.svg");
+
+    -webkit-user-drag: none;
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+}
+
+a {
+    font-size: 1.13rem;
+    color: var(--red);
+    text-decoration: underline;
+    text-underline-offset: 0.3rem;
+}
+
+.external {
+    height: 20px;
+    margin: 0;
+    stroke: var(--red);
+    margin-bottom: -4px;
+}
+
+@media (max-width: 750px) {
+    .logo {
+        content: url("../../assets/logo-mobile.svg");
+        height: 30px;
+    }
+
+    a {
+        content: "";
+    }
+  }
